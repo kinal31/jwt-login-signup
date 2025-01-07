@@ -44,7 +44,7 @@ const Home = () => {
 
   return (
     <>
-      {loggedInUser}
+      <p>Welcome</p>{loggedInUser}
       <br />
       <button onClick={handleLogout}>Logout</button>
 
